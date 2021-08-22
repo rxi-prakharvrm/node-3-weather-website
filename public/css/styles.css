@@ -61,6 +61,7 @@ h1 {
 .weather-data-ctr {
   display: none;
   border: 1px solid #eee;
+  background-color: #f7f7f7;
   padding: 2rem;
   margin: 2rem 0;
 }
