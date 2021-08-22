@@ -11,7 +11,7 @@ const weatherImg = document.querySelector(".weather-img")
 submitBtn.addEventListener("click", (e) => {
     loader.style.display = "block"
     weatherDataCtr.style.display = "none"
-    fetch("http://localhost:3000/weather?address=" + address.value).then((response) => {
+    fetch("/weather?address=" + address.value).then((response) => {
         response.json().then((data) => {            
             loader.style.display = "none"
             weatherDataCtr.style.display = "block"
