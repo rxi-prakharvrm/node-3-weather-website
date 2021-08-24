@@ -65,3 +65,21 @@ h1 {
   padding: 2rem;
   margin: 2rem 0;
 }
+
+.input {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: #f1f1f1;
+  color: #000;
+  margin: 1rem 0;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  background-color: #8cbef8;
+  color: #fff;
+  cursor: pointer;
+}
